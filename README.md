@@ -1,4 +1,6 @@
 https://crud-clinic.onrender.com/
+
+
 https://clini-system.netlify.app/
 
 
@@ -18,47 +20,39 @@ API Endpoints Used
 Patients
 
 GET /api/patients – Retrieve all patients
-
 POST /api/patients – Create a new patient
-
 DELETE /api/patients/:id – Delete a patient
 
 Doctors
 
 GET /api/doctors – Retrieve all doctors
-
 POST /api/doctors – Create a new doctor
-
 DELETE /api/doctors/:id – Delete a doctor
 
 Appointments
 
 GET /api/appointments – Retrieve all appointments
-
 POST /api/appointments – Create a new appointment
-
 DELETE /api/appointments/:id – Delete an appointment
 
 Frontend–Backend Integration (CRUD Proof)
 
 The frontend uses fetch() to send HTTP requests (GET, POST, DELETE) to the deployed backend API.
-
 Data entered in the frontend forms (Patients, Doctors, Appointments) is saved directly to the MongoDB database via the backend.
-
 The system dynamically updates tables after every CRUD operation without page reload.
-
 CORS is configured on the backend to allow secure cross-origin access from the Netlify frontend.
 
 Technologies Used
 
 Frontend: HTML, CSS, JavaScript (Vanilla JS)
-
 Backend: Node.js, Express.js
-
 Database: MongoDB Atlas
-
 Deployment:
-
 Frontend: Netlify
-
 Backend: Render
+
+
+<img width="1333" height="646" alt="image" src="https://github.com/user-attachments/assets/b07daf8b-32ad-4674-ab3b-ed4377af7c1e" />
+
+
+
