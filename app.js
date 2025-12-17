@@ -21,6 +21,8 @@ const allowedOrigins = [
   // ✅ Netlify frontends (ADD ALL YOU USE)
   "https://magnificent-trifle-1e1e63.netlify.app",
   "https://enchanting-licorice-1deb1a.netlify.app",
+  "https://clinic-system.netlify.app"
+
 ];
 
 app.use(
