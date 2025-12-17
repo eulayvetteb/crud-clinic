@@ -51,8 +51,17 @@ Deployment:
 Frontend: Netlify
 Backend: Render
 
+Screenshots 
 
-<img width="1333" height="646" alt="image" src="https://github.com/user-attachments/assets/b07daf8b-32ad-4674-ab3b-ed4377af7c1e" />
+Frontend UI showing Patients, Doctors, and Appointments tabs
+Console/network showing successful API requests to the deployed backend
+Code screenshots of app.js demonstrating Fetch API calls to /api/* endpoints
+
+<img width="1352" height="624" alt="Screenshot 2025-12-18 005307" src="https://github.com/user-attachments/assets/4b4de0d2-abac-4104-b8ec-ae98844867a2" />
+<img width="1348" height="645" alt="Screenshot 2025-12-18 005321" src="https://github.com/user-attachments/assets/8180dd3a-de7d-4352-ab1b-d1b5f9610439" />
+<img width="1353" height="653" alt="Screenshot 2025-12-18 005336" src="https://github.com/user-attachments/assets/a04774f1-0854-4b67-9b64-03403e59280c" />
+<img width="1333" height="646" alt="Screenshot 2025-12-18 005349" src="https://github.com/user-attachments/assets/f9b55b78-9548-4078-9e34-007509477367" />
+
 
 
 
