@@ -1,27 +1,5 @@
-# CRUD Clinic Project
-
-A web-based CRUD (Create, Read, Update, Delete) application for managing clinic data. This project allows clinic staff to efficiently manage patients, appointments, and related information using a MongoDB database and Express.js server.
-
----
-
-## Features
-
-## Features
-
-- **Patient Management**: Add, view, update, and delete patient information.  
-- **Appointment Management**: Schedule and track clinic appointments.  
-- **Doctor Management**: Add, view, update, and delete doctor information.  
-- **Database Integration**: Connected to MongoDB Atlas for cloud data storage.  
-- **RESTful API**: Provides endpoints for all CRUD operations.
-
----
-
-## Installation
-
-npm install
-
-git clone https://github.com/eulayvetteb/crud-clinic.git
-cd crud-clinic
+https://crud-clinic.onrender.com/
+https://clini-system.netlify.app/
 
 
 
@@ -30,45 +8,57 @@ cd crud-clinic
 
 
 
+System Overview
 
+The Clinic Management System is a web-based CRUD application that allows management of Patients, Doctors, and Appointments.
+The frontend is built using HTML, CSS, and Vanilla JavaScript, while the backend is developed using Node.js, Express, and MongoDB (Mongoose).
+The frontend communicates with the backend using the Fetch API and consumes the deployed REST API hosted on Render.
 
+API Endpoints Used
+Patients
 
+GET /api/patients – Retrieve all patients
 
+POST /api/patients – Create a new patient
 
+DELETE /api/patients/:id – Delete a patient
 
+Doctors
 
+GET /api/doctors – Retrieve all doctors
 
+POST /api/doctors – Create a new doctor
 
+DELETE /api/doctors/:id – Delete a doctor
 
+Appointments
 
+GET /api/appointments – Retrieve all appointments
 
+POST /api/appointments – Create a new appointment
 
-| Method | Endpoint      | Description                 |
-| ------ | ------------- | --------------------------- |
-| POST   | /patients     | Create a new patient        |
-| GET    | /patients     | Retrieve all patients       |
-| GET    | /patients/:id | Retrieve a specific patient |
-| PUT    | /patients/:id | Update a patient            |
-| DELETE | /patients/:id | Delete a patient            |
+DELETE /api/appointments/:id – Delete an appointment
 
+Frontend–Backend Integration (CRUD Proof)
 
+The frontend uses fetch() to send HTTP requests (GET, POST, DELETE) to the deployed backend API.
 
-| Method | URL                | Description        |
-| ------ | ------------------ | ------------------ |
-| GET    | `/api/doctors`     | Get all doctors    |
-| GET    | `/api/doctors/:id` | Get a doctor by ID |
-| POST   | `/api/doctors`     | Add a new doctor   |
-| PUT    | `/api/doctors/:id` | Update a doctor    |
-| DELETE | `/api/doctors/:id` | Delete a doctor    |
+Data entered in the frontend forms (Patients, Doctors, Appointments) is saved directly to the MongoDB database via the backend.
 
+The system dynamically updates tables after every CRUD operation without page reload.
 
+CORS is configured on the backend to allow secure cross-origin access from the Netlify frontend.
 
+Technologies Used
 
-| Method | Endpoint          | Description                |
-| ------ | ----------------- | -------------------------- |
-| POST   | /appointments     | Schedule a new appointment |
-| GET    | /appointments     | Get all appointments       |
-| GET    | /appointments/:id | Get appointment by ID      |
-| PUT    | /appointments/:id | Update appointment details |
-| DELETE | /appointments/:id | Cancel/delete appointment  |
+Frontend: HTML, CSS, JavaScript (Vanilla JS)
 
+Backend: Node.js, Express.js
+
+Database: MongoDB Atlas
+
+Deployment:
+
+Frontend: Netlify
+
+Backend: Render
